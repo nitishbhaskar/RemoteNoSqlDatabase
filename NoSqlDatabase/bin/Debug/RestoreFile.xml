@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<noSqlDb>
+  <element>
+  <dbOperation>Add</dbOperation>
+    <key>Tallahassee</key>
+    <value>
+      <children>
+        <child>Miami</child>
+        <child>Jacksonville</child>
+      </children>
+      <description>Places in Florida state</description>
+      <name>Tallahassee</name>
+      <payload>
+		<load>Miami beach</load>
+	  </payload>
+    </value>
+  </element>
+  <element>
+  <dbOperation>Add</dbOperation>
+    <key>SaintPaul</key>
+    <value>
+      <children>
+        <child>Minneapolis</child>
+      </children>
+      <description>Places in Minnesota state</description>
+      <name>Saint Paul</name>
+      <payload>
+		<load>Winter</load>
+	  </payload>
+    </value>
+  </element>  
+</noSqlDb>
