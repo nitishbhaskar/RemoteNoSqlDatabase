@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<noSqlDb>
+  <element>
+  <dbOperation>Restore</dbOperation>
+  </element>
+  <element>
+  <dbOperation>Add</dbOperation>
+    <key>NewYork</key>
+    <value>
+      <children>
+        <child>Syracuse</child>
+        <child>Albany</child>
+        <child>Ithaca</child>
+      </children>
+      <description>Places in NewYork state</description>
+      <name>New York</name>
+      <payload>
+		<load>Empire State Building</load>
+		<load>World Trade Center</load>
+	  </payload>
+    </value>
+  </element>
+  <element>
+  <dbOperation>Add</dbOperation>
+    <key>Columbus</key>
+    <value>
+      <children>
+        <child>Cleveland</child>
+        <child>Cincinnati</child>
+        <child>Stow</child>
+      </children>
+      <description>Places in Ohio</description>
+      <name>Columbus</name>
+      <payload>
+		<load>Six Flags</load>
+		<load>Lake Erie</load>
+	  </payload>
+    </value>
+  </element>
+  <element>
+  <dbOperation>Add</dbOperation>
+    <key>Austin</key>
+    <value>
+      <children>
+        <child>Dallas</child>
+        <child>Houston</child>
+      </children>
+      <description>Places in Texas</description>
+      <name>Austin</name>
+      <payload>
+		<load>Country side</load>
+		<load>Big Bend</load>
+	  </payload>
+    </value>
+  </element>
+  <element>
+  <dbOperation>Add</dbOperation>
+    <key>Sacramento</key>
+    <value>
+      <children>
+        <child>Los Angeles</child>
+        <child>San Francisco</child>
+      </children>
+      <description>States in California</description>
+      <name>Sacramento</name>
+      <payload>
+		<load>Golden gate bridge</load>
+	  </payload>
+    </value>
+  </element>
+  <element>
+  <dbOperation>Edit</dbOperation>
+    <key>NewYork</key>
+    <value>
+      <children>
+        <child>Syracuse</child>
+        <child>Albany</child>
+        <child>Ithaca</child>
+      </children>
+      <description>Places in NewYork state updated</description>
+      <name>New York</name>
+      <payload>
+		<load>Empire State Building</load>
+		<load>World Trade Center</load>
+		<load>Statue of Liberty</load>
+	  </payload>
+    </value>
+  </element>
+  <element>
+  <dbOperation>Persist</dbOperation>
+  </element>
+  <element>
+  <dbOperation>Delete</dbOperation>
+  <key>Columbus</key>
+  </element>
+  <element>
+  <dbOperation>Delete</dbOperation>
+  <key>New Mexico</key>
+  </element>
+  <element>
+  <dbOperation>SearchChild</dbOperation>
+  <key>Austin</key>
+  </element>
+  <element>
+  <dbOperation>Search</dbOperation>
+  <key>Sacramento</key>
+  </element>
+  <element>
+  <dbOperation>Search</dbOperation>
+  <key>Detroit</key>
+  </element>
+</noSqlDb>

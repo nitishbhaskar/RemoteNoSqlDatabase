@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<noSqlDb>
+  <element>
+  <dbOperation>Add</dbOperation>
+    <key>NewYork</key>
+    <value>
+      <children>
+        <child>Syracuse</child>
+        <child>Albany</child>
+        <child>Ithaca</child>
+      </children>
+      <description>Places in NewYork state</description>
+      <name>New York</name>
+      <payload>
+		<load>Empire State Building</load>
+		<load>World Trade Center</load>
+	  </payload>
+    </value>
+  </element>
+  </noSqlDb>
